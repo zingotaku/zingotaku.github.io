@@ -1,3 +1,30 @@
-.* {
-    background-color: gray;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Major+Mono+Display&display=swap');
+:root {
+    --bg: rgb(28, 43, 49);
+
+    --azul: blue;
+    --vermelho: red;
+    --amarelo: yellow;
+    --aqua: aqua;
+    --aqua2: rgb(36, 77, 77);
+    --gray: gray;
+    --rosa: pink;
 }
+
+body {
+    background-color: var(--bg);
+    font-family: 'JetBrains Mono', monospace !important;
+}
+h1 {
+    font-size: 16px;
+    color: rgb(127, 229, 255);
+}
+pre {
+    font-size: 17px;
+    color: rgb(127, 214, 255);
+}
+.button {
+    opacity: 0.0;
+}
+
+button.link { background:none; border:none; }
